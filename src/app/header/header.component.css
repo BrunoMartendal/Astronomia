@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family=Blinker&display=swap');
+
+* {
+    font-family: "Blinker", sans-serif;
+  
+  }
+.header{
+    width: 99%;
+    background-color: blueviolet;
+    display: grid;
+    align-content: center; 
+}

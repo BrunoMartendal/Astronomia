@@ -1,0 +1,28 @@
+.header{
+    position: absolute;
+    width: 80%;
+    height:20%;
+    border-style: solid;
+}
+.menu{
+    position: absolute;
+    top:22%;
+    border-style: solid;
+    height:70%;
+    width: 15%;
+}
+.body{
+    position: absolute;
+    top:22%;
+    left: 16%;
+    border-style: solid;
+    height:70%;
+    width: 64.6%;
+}
+.footer{
+    position: absolute;
+    bottom: 0%;
+    border-style: solid;
+    width: 80%;
+    height: 5%;
+}

@@ -1,0 +1,7 @@
+<div class="nebulosas">
+    <li *ngFor="let nebulosa of nebulosas; let i = index">
+        <a routerLink="/info-nebulosas/{{i}}">
+            {{nebulosas[i][0]}}
+        </a>
+    </li>
+</div>

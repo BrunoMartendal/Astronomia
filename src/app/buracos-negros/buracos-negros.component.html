@@ -1,0 +1,7 @@
+<div class="buracos-negros">
+    <li *ngFor="let buracoNegro of buracosNegros; let i = index">
+        <a routerLink="/info-buracos-negros/{{i}}">
+            {{buracosNegros[i][0]}}
+        </a>
+    </li>
+</div>

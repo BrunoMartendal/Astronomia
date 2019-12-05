@@ -1,0 +1,7 @@
+<div class="estrelas">
+    <li *ngFor="let estrela of estrelas; let i = index">
+        <a routerLink="/info-estrelas/{{i}}">
+            {{estrelas[i][0]}}
+        </a>
+    </li>
+</div>
