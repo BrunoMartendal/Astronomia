@@ -1,6 +1,6 @@
 <div class="planetas">
     <li *ngFor="let planeta of planetas; let i = index">
-        <a routerLink="/info-planetas/{{i}}">
+        <a class="botaoMenu" routerLink="/info-planetas/{{i}}">
             {{planetas[i][0]}}
         </a>
     </li>

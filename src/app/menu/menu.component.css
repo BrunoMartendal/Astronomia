@@ -9,16 +9,13 @@
     padding-left: 3rem;
   }
 
-ul {
-  list-style-type: none;
-  width: 100%;
-  left: 0;
-}
+
 
 li {
   width: 100%;
   display: block;
   transition: background .3s ease-in-out;
+  margin-bottom: 3px;
 }
 
 .botaoMenu {
@@ -57,7 +54,7 @@ li {
     text-shadow:1px 1px 40px #7811d9;
   position: relative;
    left: -16px;
-   top: 70px;
+   top: 60px;
   }
   .botaoMenu:hover {
     background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #7811d9), color-stop(1, #7822c9) );
@@ -66,7 +63,7 @@ li {
     background-color:#7811d9;
   }.botaoMenu:active {
     position: relative;;
-    top:71px;
+    top:61px;
     
   }
   

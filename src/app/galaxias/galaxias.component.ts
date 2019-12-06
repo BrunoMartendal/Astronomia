@@ -8,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class GalaxiasComponent implements OnInit {
 
   galaxias = [['Andrômeda'],
-              ['Galáxia de Bode (Messier 81)'],
+              ['Galáxia de Bode'],
               ['Centaurus A']
   ];
 
